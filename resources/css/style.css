@@ -1,0 +1,54 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    margin: 16px 24px 16px 24px;
+    height: 64px;
+}
+
+header h1 span{
+    color: maroon;
+    font-weight: 500;
+    
+}
+
+header #logo{
+    height: 32px;
+    display: flex;
+}
+
+header #logo img{
+    width: auto;
+    height: 80px;
+}
+
+header nav{
+    float: right;
+}
+
+header nav li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+header nav a{
+    text-decoration: none;
+    color: gray;
+    padding: 2px;
+}
+
+.container{
+    background-color: rgba(128, 128, 128, 0.562);
+    
+}
+
+.container img{
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.container #description{
+    float: right;
+    margin: 300px 70px auto auto;
+}
