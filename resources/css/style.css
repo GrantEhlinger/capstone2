@@ -5,6 +5,7 @@ body{
 header{
     margin: 16px 24px 16px 24px;
     height: 64px;
+    overflow: hidden;
 }
 
 header h1 span{
@@ -38,17 +39,80 @@ header nav a{
     padding: 2px;
 }
 
-.container{
+.banner-container{
     background-color: rgba(128, 128, 128, 0.562);
     
 }
 
-.container img{
-    width: 60%;
+.banner-container img{
     margin: 32px 24px;
 }
 
-.container #description{
+.banner-container #description{
     float: right;
     margin: 300px 70px auto auto;
+}
+
+.banner-container #button{
+    background-color: gray;
+    text-align: center;
+    padding: 8px;
+    margin-top: 200px;
+}
+
+.banner-container #button a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.container{
+    display: flex;
+    margin: 32px auto 32px 24px;
+}
+
+#left-container{
+    width: 60%;
+    margin-right: 24px;
+}
+
+#left-container h3{
+    font-weight: 500;
+    opacity: 0.7;
+}
+
+#left-container img{
+    margin-bottom: 32px;
+}
+
+#right-container{
+    width: 40%;
+    margin-left: 20px;
+}
+
+.img-container{
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    border-left: gray solid 1px;
+}
+
+.img-container h3{
+    font-weight: 500;
+    opacity: 0.7;
+}
+
+.img-container a{
+    text-decoration: none;
+    color: blue;
+}
+
+.img-container img{
+    width: 35%;
+    height: auto;
+    margin: 16px 16px;
+}
+
+#guest{
+    background-color: rgba(128, 128, 128, 0.562);
 }
