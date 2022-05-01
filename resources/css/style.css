@@ -39,34 +39,34 @@ header nav a{
     padding: 2px;
 }
 
-.banner-container{
+#banner-container{
     background-color: rgba(128, 128, 128, 0.562);
-    
+    display: flex;
 }
 
-.banner-container img{
+#banner-container img{
     margin: 32px 24px;
 }
 
-.banner-container #description{
+#banner-container #description{
     float: right;
     margin: 300px 70px auto auto;
 }
 
-.banner-container #button{
+#banner-container #button{
     background-color: gray;
     text-align: center;
     padding: 8px;
     margin-top: 200px;
 }
 
-.banner-container #button a{
+#banner-container #button a{
     text-decoration: none;
     color: white;
     
 }
 
-.container{
+#info-container{
     display: flex;
     margin: 32px auto 32px 24px;
 }
@@ -90,24 +90,24 @@ header nav a{
     margin-left: 20px;
 }
 
-.img-container{
+#info-container .img-container{
     width: 100%;
     display: inline-flex;
     align-items: center;
     border-left: gray solid 1px;
 }
 
-.img-container h3{
+#info-container .img-container h3{
     font-weight: 500;
     opacity: 0.7;
 }
 
-.img-container a{
+#info-container .img-container a{
     text-decoration: none;
     color: blue;
 }
 
-.img-container img{
+#info-container .img-container img{
     width: 35%;
     height: auto;
     margin: 16px 16px;
@@ -115,4 +115,40 @@ header nav a{
 
 #guest{
     background-color: rgba(128, 128, 128, 0.562);
+}
+
+#learning-container{
+    background-color: rgba(128, 128, 128, 0.4);
+    padding: 32px 72px;
+}
+
+#learning-container h1{
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+#learning-container h3{
+    font-weight: 500;
+    opacity: 0.7;
+}
+
+#learning-container #container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#learning-container .text-container{
+    padding: 16px;
+}
+
+#learning-container .img-container{
+    margin: 32px 32px;
+    width: 500px;
+    background-color: white;
+}
+
+#learning-container .img-container img{
+    height: auto;
+    width: 500px;
 }
