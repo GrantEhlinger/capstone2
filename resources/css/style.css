@@ -37,6 +37,7 @@ header nav a{
     text-decoration: none;
     color: gray;
     padding: 2px;
+    font-size: 20px;
 }
 
 #banner-container{
@@ -151,4 +152,69 @@ header nav a{
 #learning-container .img-container img{
     height: auto;
     width: 500px;
+}
+
+#thesis-container h1{
+    text-align: center;
+    margin: 32px;
+}
+
+#thesis-container #container{
+    display: flex;
+    margin: 32px;
+}
+
+#left-container video{
+    width: 100%;
+}
+
+#left-container{
+    width: 60%;
+    
+}
+
+#thesis-container #container #right-container .image-container{
+    
+    display: flex;
+}
+
+#thesis-container .image-container img{
+    width: 35%;
+    height: auto;
+    padding: 16px;
+}
+
+#thesis-container .text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px;
+}
+
+#thesis-container .text-container h3{
+    font-weight: 500;
+    opacity: 0.7
+}
+
+#shade-container{
+    background-color: rgba(128, 128, 128, 0.562);
+}
+
+footer{
+    display: flex;
+    margin: 16px 24px;
+    opacity: 0.7;
+    border-top: gray solid 2px;
+}
+
+footer #copyright{
+    margin-right: 1200px;
+}
+
+footer #terms-privacy{
+    display: flex;
+}
+
+footer #terms-privacy h3{
+    word-spacing: 10px;
 }
